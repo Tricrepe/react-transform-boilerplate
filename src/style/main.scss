@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  padding:0
+}
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .content{
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url('../assets/12.jpg');
+      background-size:cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      .mengban {
+          font-family: fantasy;
+          font-size: 30px;
+          height: 180px;
+          width:100%;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(100, 102, 98,.4)
+      }
+  }
+  .work{
+    flex-grow: 1
+  }
+  .contact {
+    flex-grow: 1
+  }
+  .footer {
+    height: 80px;
+    background-color: #CDDC39;
+  }
+
+
+}
